@@ -1,0 +1,15 @@
+[user]
+  name = haelmy
+  email = haelmy@gmail.com
+
+[credential]
+  helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+  excludesfile = /opt/boxen/config/git/gitignore
+
+[hub]
+  protocol = https
+
+[color]
+  ui = true
