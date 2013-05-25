@@ -2,6 +2,9 @@
   name = haelmy
   email = haelmy@gmail.com
 
+[alias]
+  st = status --short
+
 [credential]
   helper = /opt/boxen/bin/boxen-git-credential
 
