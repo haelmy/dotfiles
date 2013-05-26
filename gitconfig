@@ -5,6 +5,7 @@
 [alias]
   st = status --short
   l = log --oneline
+  co = checkout
 
 [credential]
   helper = /opt/boxen/bin/boxen-git-credential
