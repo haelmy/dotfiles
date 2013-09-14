@@ -14,8 +14,14 @@ filetype plugin indent on     " required!
 
 " bundles to install via vundle
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'csexton/trailertrash.vim'
 
 " use solarized theme
 syntax enable
 set background=dark
 colorscheme solarized
+
+" show whitespace characters
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
