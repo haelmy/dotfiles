@@ -16,6 +16,7 @@ filetype plugin indent on     " required!
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'csexton/trailertrash.vim'
+Bundle 'christoomey/vim-tmux-navigator'
 
 " use solarized theme
 syntax enable
