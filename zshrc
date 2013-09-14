@@ -40,7 +40,7 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -48,4 +48,11 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
+# set the default user, to clean up the prompt
 DEFAULT_USER=haelmy
+
+# set directory colors to match solarized
+LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
+# start tmux with utf-8 support, so it does not mess with the zsh theme
+alias tmux='tmux -u'
