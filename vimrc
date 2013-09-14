@@ -25,3 +25,9 @@ colorscheme solarized
 " show whitespace characters
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
+
+" 4 spaces wide softtab
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
