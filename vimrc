@@ -1,3 +1,4 @@
+" setup for vundle
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -9,3 +10,12 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 filetype plugin indent on     " required!
+" end of setup for vundle
+
+" bundles to install via vundle
+Bundle 'altercation/vim-colors-solarized'
+
+" use solarized theme
+syntax enable
+set background=dark
+colorscheme solarized
