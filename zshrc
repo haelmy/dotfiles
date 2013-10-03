@@ -56,3 +56,6 @@ LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # start tmux with utf-8 support, so it does not mess with the zsh theme
 alias tmux='tmux -u'
+
+# enable globally installed npm packages
+export PATH=/usr/local/share/npm/bin:$PATH
