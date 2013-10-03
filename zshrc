@@ -1,3 +1,6 @@
+# include boxen environment
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
 # zsh setup
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
@@ -7,9 +10,6 @@ plugins=(git tmux)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-# include boxen environment
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 # set the default user, to clean up the prompt
 DEFAULT_USER=haelmy
