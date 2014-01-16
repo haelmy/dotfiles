@@ -11,6 +11,7 @@
   helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
+  editor = vim
   excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
